@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1450">
+    <title>MY ELODIE</title>
+    <link rel="stylesheet" href="./myelodie.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="header_inner clearfix">
+            <h1 class="logo">
+                <a href="./index.html"><img src="./images/header_logo.png" alt="헤더로고"></a>
+            </h1>
+            <!--logo-->
+            <ul class="gnb">
+                <li><a href="./brandstory.html">BRAND</a></li>
+                <li><a href="./shop.html">SHOP</a></li>
+                <li><a href="./community.html">COMMUNITY</a></li>
+                <li><a href="./myelodie_1.html">MY ELODIE</a></li>
+            </ul>
+            <!--gnb-->
+            <ul class="header_icon">
+                <li><a href="./index.html"><img class="icon1" src="./images/home_icon.png" alt="홈아이콘"></a></li>
+                <li><a href="#"><img class="icon2" src="./images/cart_icon.png" alt="장바구니"></a></li>
+                <li><a href="#"><img class="icon3" src="./images/mypage_icon.png" alt="로그인"></a></li>
+            </ul>
+            <!--header_icon-->
+        </div>
+        <!--header_inner-->
+    </div>
+    <!--header-->
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script><!--제이쿼리 cdn-->
+<script>
+	$(function(){
+    	//이미지 변경 함수 호출
+    	$(".icon1").mouseenter(function(){
+            $(".icon1").attr("src", "images/home_icon_hover.png");//변경될 이미지 주소를 넣어주세요
+        });
+        $(".icon1").mouseleave(function(){
+            $(".icon1").attr("src", "images/home_icon.png");//변경될 이미지 주소를 넣어주세요
+        });
+    });
+    $(function(){
+    	//이미지 변경 함수 호출
+    	$(".icon2").mouseenter(function(){
+            $(".icon2").attr("src", "images/cart_icon_hover.png");//변경될 이미지 주소를 넣어주세요
+        });
+        $(".icon2").mouseleave(function(){
+            $(".icon2").attr("src", "images/cart_icon.png");//변경될 이미지 주소를 넣어주세요
+        });
+    });	
+    $(function(){
+    	//이미지 변경 함수 호출
+    	$(".icon3").mouseenter(function(){
+            $(".icon3").attr("src", "images/mypage_icon_hover.png");//변경될 이미지 주소를 넣어주세요
+        });
+        $(".icon3").mouseleave(function(){
+            $(".icon3").attr("src", "images/mypage_icon.png");//변경될 이미지 주소를 넣어주세요
+        });
+    });
+    
+    
+    
+
+</script>
+
+
+
+    <div id="page2pick">
+        <div class="page2pick_inner">
+            <h1 class="pick11"><a href="./myelodie_3.html"><img class="pick1" src="./images/city_pick1.png" alt="한낮"></a></h1>
+            <h2 class="pick22"><a href="./myelodie_3.html"><img class="pick2" src="./images/city_pick2.png" alt="도시의밤"></a></h2>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script><!--제이쿼리 cdn-->
+    <script>
+        $(function(){
+            //이미지 변경 함수 호출
+            $(".pick1").mouseenter(function(){
+                $(".pick1").attr("src", "images/city_pick1_hover.png");//변경될 이미지 주소를 넣어주세요
+            });
+            $(".pick1").mouseleave(function(){
+                $(".pick1").attr("src", "images/city_pick1.png");//변경될 이미지 주소를 넣어주세요
+            });
+        });
+        $(function(){
+            //이미지 변경 함수 호출
+            $(".pick2").mouseenter(function(){
+                $(".pick2").attr("src", "images/city_pick2_hover.png");//변경될 이미지 주소를 넣어주세요
+            });
+            $(".pick2").mouseleave(function(){
+                $(".pick2").attr("src", "images/city_pick2.png");//변경될 이미지 주소를 넣어주세요
+            });
+        });
+
+
+
+</script>
+
+
+    <div id="footer">
+        <div class="footer_inner">
+            <h1 class="footer_logo">
+                <a href="./index.html"></a><img src="./images/footer_logo.png" alt="로고">
+            </h1>
+            <a class="foost1" href="#"><img src="./images/footer_list1.png" alt="공지사항"></a>
+            <a class="foost2" href="#"><img src="./images/footer_list2.png" alt="이용약관"></a>
+            <a class="foost3" href="#"><img src="./images/footer_list3.png" alt="전자공고"></a>
+            <a class="foost4" href="#"><img src="./images/footer_list4.png" alt="개인정보처리방침"></a>
+
+            <a class="foocon1" href="https://www.tiktok.com/ko-KR/"><img src="./images/footer_tictok_icon.png" alt="틱톡"></a>
+            <a class="foocon2" href="http://instagram.com/"><img src="./images/footer_instagram_icon.png" alt="인스타그램"></a>
+            <a class="foocon3" href="http://twitter.com/"><img src="./images/footer_twitter_icon.png" alt="트위터"></a>
+            <a class="foocon4" href="http://youtube.com/"><img src="./images/footer_youtube_icon.png" alt="유튜브"></a>
+        
+            <p class="footer_elodie"><img src="./images/elodie corporation.png" alt="ⓒ ELODIE CORPORATION. ALL RIGHT RESERVED."></p>
+        </div>
+    </div>
+
+</body>
+</html>

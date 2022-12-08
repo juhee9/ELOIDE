@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1450">
+    <title>ELODIE 엘로디</title>
+    <link rel="stylesheet" href="./shop.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="header_inner clearfix">
+            <h1 class="logo">
+                <a href="./index.html"><img src="./images/header_logo.png" alt="헤더로고"></a>
+            </h1>
+            <!--logo-->
+            <ul class="gnb">
+                <li><a href="./brandstory.html">BRAND</a></li>
+                <li><a href="./shop.html">SHOP</a></li>
+                <li><a href="./community.html">COMMUNITY</a></li>
+                <li><a href="./myelodie_1.html">MY ELODIE</a></li>
+            </ul>
+            <!--gnb-->
+            <ul class="header_icon">
+                <li><a href="./index.html"><img class="icon1" src="./images/home_icon.png" alt="홈아이콘"></a></li>
+                <li><a href="#"><img class="icon2" src="./images/cart_icon.png" alt="장바구니"></a></li>
+                <li><a href="#"><img class="icon3" src="./images/mypage_icon.png" alt="로그인"></a></li>
+            </ul>
+            <!--header_icon-->
+        </div>
+        <!--header_inner-->
+    </div>
+    <!--header-->
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script><!--제이쿼리 cdn-->
+<script>
+	$(function(){
+    	//이미지 변경 함수 호출
+    	$(".icon1").mouseenter(function(){
+            $(".icon1").attr("src", "images/home_icon_hover.png");//변경될 이미지 주소를 넣어주세요
+        });
+        $(".icon1").mouseleave(function(){
+            $(".icon1").attr("src", "images/home_icon.png");//변경될 이미지 주소를 넣어주세요
+        });
+    });
+    $(function(){
+    	//이미지 변경 함수 호출
+    	$(".icon2").mouseenter(function(){
+            $(".icon2").attr("src", "images/cart_icon_hover.png");//변경될 이미지 주소를 넣어주세요
+        });
+        $(".icon2").mouseleave(function(){
+            $(".icon2").attr("src", "images/cart_icon.png");//변경될 이미지 주소를 넣어주세요
+        });
+    });	
+    $(function(){
+    	//이미지 변경 함수 호출
+    	$(".icon3").mouseenter(function(){
+            $(".icon3").attr("src", "images/mypage_icon_hover.png");//변경될 이미지 주소를 넣어주세요
+        });
+        $(".icon3").mouseleave(function(){
+            $(".icon3").attr("src", "images/mypage_icon.png");//변경될 이미지 주소를 넣어주세요
+        });
+    });
+    
+    
+    
+
+</script>
+
+    <div id="sub_main">
+        <div class="submain_inner clearfix">
+            <div class="submain_img">
+                <img src="./images/shop_main_img.png" alt="미네랄 코스메틱 크림">
+            </div>
+            <!--submain_img-->
+            <div class="sub_button">
+                <p class="subtxt"><img src="./images/shop_subtxt.png" alt="상세"></p>
+                <ul class="subm_ul">
+                    <li><a href="#"><img class="shopcart" src="./images/shop_subcart.png" alt="장바구니"></a></li>
+                    <li><a href="#"><img class="shopbuy" src="./images/shop_subbuy.png" alt="바로구매"></a></li>
+                </ul>
+            </div>
+            <!--main_button-->
+            <ul class="matching">
+                <li class="matching1"><a href="#"><img class="mc1" src="./images/matching1.png" alt="어울리는제품1"></a></li>
+                <li><a href="#"><img class="mc2" src="./images/matching2.png" alt="어울리는제품2"></a></li>
+                <li><a href="#"><img class="mc3" src="./images/matching3.png" alt="어울리는제품3"></a></li>
+            </ul>
+        </div>
+        <!--submain_inner-->
+    </div>
+    <!--sub_main-->
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script><!--제이쿼리 cdn-->
+    <script>
+        $(function(){
+            //이미지 변경 함수 호출
+            $(".shopcart").mouseenter(function(){
+                $(".shopcart").attr("src", "images/shop_subcart_hover.png");//변경될 이미지 주소를 넣어주세요
+            });
+            $(".shopcart").mouseleave(function(){
+                $(".shopcart").attr("src", "images/shop_subcart.png");//변경될 이미지 주소를 넣어주세요
+            });
+        });
+        $(function(){
+            //이미지 변경 함수 호출
+            $(".shopbuy").mouseenter(function(){
+                $(".shopbuy").attr("src", "images/shop_subbuy_hover.png");//변경될 이미지 주소를 넣어주세요
+            });
+            $(".shopbuy").mouseleave(function(){
+                $(".shopbuy").attr("src", "images/shop_subbuy.png");//변경될 이미지 주소를 넣어주세요
+            });
+        });	
+        
+    </script><!--submain아이콘-->
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script><!--제이쿼리 cdn-->
+<script>
+    $(function(){
+        //이미지 변경 함수 호출
+        $(".mc1").mouseenter(function(){
+            $(".mc1").attr("src", "./images/matching1_hover.png");//변경될 이미지 주소를 넣어주세요
+        });
+        $(".mc1").mouseleave(function(){
+            $(".mc1").attr("src", "images/matching1.png");//변경될 이미지 주소를 넣어주세요
+        });
+    });
+    $(function(){
+        //이미지 변경 함수 호출
+        $(".mc2").mouseenter(function(){
+            $(".mc2").attr("src", "./images/matching2_hover.png");//변경될 이미지 주소를 넣어주세요
+        });
+        $(".mc2").mouseleave(function(){
+            $(".mc2").attr("src", "images/matching2.png");//변경될 이미지 주소를 넣어주세요
+        });
+    });
+    $(function(){
+        //이미지 변경 함수 호출
+        $(".mc3").mouseenter(function(){
+            $(".mc3").attr("src", "./images/matching3_hover.png");//변경될 이미지 주소를 넣어주세요
+        });
+        $(".mc3").mouseleave(function(){
+            $(".mc3").attr("src", "images/matching3.png");//변경될 이미지 주소를 넣어주세요
+        });
+    });
+    
+</script><!--매칭-->
+
+
+
+
+
+    <div id="footer">
+        <div class="footer_inner">
+            <h1 class="footer_logo">
+                <a href="./index.html"></a><img src="./images/footer_logo.png" alt="로고">
+            </h1>
+            <a class="foost1" href="#"><img src="./images/footer_list1.png" alt="공지사항"></a>
+            <a class="foost2" href="#"><img src="./images/footer_list2.png" alt="이용약관"></a>
+            <a class="foost3" href="#"><img src="./images/footer_list3.png" alt="전자공고"></a>
+            <a class="foost4" href="#"><img src="./images/footer_list4.png" alt="개인정보처리방침"></a>
+
+            <a class="foocon1" href="https://www.tiktok.com/ko-KR/"><img src="./images/footer_tictok_icon.png" alt="틱톡"></a>
+            <a class="foocon2" href="http://instagram.com/"><img src="./images/footer_instagram_icon.png" alt="인스타그램"></a>
+            <a class="foocon3" href="http://twitter.com/"><img src="./images/footer_twitter_icon.png" alt="트위터"></a>
+            <a class="foocon4" href="http://youtube.com/"><img src="./images/footer_youtube_icon.png" alt="유튜브"></a>
+        
+            <p class="footer_elodie"><img src="./images/elodie corporation.png" alt="ⓒ ELODIE CORPORATION. ALL RIGHT RESERVED."></p>
+        </div>
+    </div>
+
+</body>
+</html>
