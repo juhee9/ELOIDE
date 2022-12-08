@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1450">
+    <title>ELODIE 엘로디</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="header_inner clearfix">
+            <h1 class="logo">
+                <a href="./index.html"><img src="./images/header_logo.png" alt="헤더로고"></a>
+            </h1>
+            <!--logo-->
+            <ul class="gnb">
+                <li><a href="./brandstory.html">BRAND</a></li>
+                <li><a href="./shop.html">SHOP</a></li>
+                <li><a href="./community.html">COMMUNITY</a></li>
+                <li><a href="./myelodie_1.html">MY ELODIE</a></li>
+            </ul>
+            <!--gnb-->
+            <ul class="header_icon">
+                <li><a href="./index.html"><img class="icon1" src="./images/home_icon.png" alt="홈아이콘"></a></li>
+                <li><a href="#"><img class="icon2" src="./images/cart_icon.png" alt="장바구니"></a></li>
+                <li><a href="#"><img class="icon3" src="./images/mypage_icon.png" alt="로그인"></a></li>
+            </ul>
+            <!--header_icon-->
+        </div>
+        <!--header_inner-->
+    </div>
+    <!--header-->
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script><!--제이쿼리 cdn-->
+<script>
+	$(function(){
+    	//이미지 변경 함수 호출
+    	$(".icon1").mouseenter(function(){
+            $(".icon1").attr("src", "images/home_icon_hover.png");//변경될 이미지 주소를 넣어주세요
+        });
+        $(".icon1").mouseleave(function(){
+            $(".icon1").attr("src", "images/home_icon.png");//변경될 이미지 주소를 넣어주세요
+        });
+    });
+    $(function(){
+    	//이미지 변경 함수 호출
+    	$(".icon2").mouseenter(function(){
+            $(".icon2").attr("src", "images/cart_icon_hover.png");//변경될 이미지 주소를 넣어주세요
+        });
+        $(".icon2").mouseleave(function(){
+            $(".icon2").attr("src", "images/cart_icon.png");//변경될 이미지 주소를 넣어주세요
+        });
+    });	
+    $(function(){
+    	//이미지 변경 함수 호출
+    	$(".icon3").mouseenter(function(){
+            $(".icon3").attr("src", "images/mypage_icon_hover.png");//변경될 이미지 주소를 넣어주세요
+        });
+        $(".icon3").mouseleave(function(){
+            $(".icon3").attr("src", "images/mypage_icon.png");//변경될 이미지 주소를 넣어주세요
+        });
+    });
+    
+    
+    
+
+</script>
+
+
+    <div id="main">
+        <div class="main_img"><img src="./images/main.png" alt="메인"></div>
+    </div>
+    <!--main-->
+    <div id="container">
+        <div class="container_inner">
+            <div class="story">
+                <img class="story_img" src="./images/container_brandstory.png" alt="브랜드스토리">
+            </div>
+            <div class="best_item">
+                <img class="best_font" src="./images/best_item_font.png" alt="베스트아이템">
+                <ul class="best_list">
+                    <li><a href="#none"><img src="./images/best_item_img1.png" alt=""></a></li>
+                    <li><a href="#none"><img src="./images/best_item_img2.png" alt=""></a></li>
+                    <li><a href="#none"><img src="./images/best_item_img3.png" alt=""></a></li>
+                    <li><a href="#none"><img src="./images/best_item_img4.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="new_item">
+                <h3><img src="./images/new_item_font.png" alt="뉴아이템"></h3>
+                <p class="new1"><a href="./shop_subpage.html"><img src="./images/new_item_1.png" alt="뉴아이템 제품1"></a></p>
+                <a class="new2" href="./shop_subpage.html"><img src="./images/new_item_2.png" alt="뉴아이템 제품2"></a>
+                <a class="new3" href="./shop_subpage.html"><img src="./images/new_item_3.png" alt="뉴아이템 제품3"></a>
+                <a class="new4" href="./shop_subpage.html"><img src="./images/new_item_4.png" alt="뉴아이템 제품4"></a>
+                <a class="new5" href="./shop_subpage.html"><img src="./images/new_item_5.png" alt="뉴아이템 제품5"></a>
+                <a class="new6" href="./shop_subpage.html"><img src="./images/new_item_6.png" alt="뉴아이템 제품6"></a>
+            </div>
+        </div>      
+        <!--container_inner-->      
+    </div>
+    <!--container-->
+
+    
+    <div id="gift">
+        <div class="gift_inner">
+            <p><img src="./images/gift_icon.png" alt="상자"></p>
+            <h2><img src="./images/for_gift_font.png" alt="기프트"></h2>
+            <ul class="gift_list">
+                <li class="gift_list1"><a href="#"><img src="./images/gift_1.png" alt="기프트제품1"></a></li>
+                <li class="gift_list2"><a href="#"><img src="./images/gift_2.png" alt="기프트제품2"></a></li>
+                <li class="gift_list1"><a href="#"><img src="./images/gift_3.png" alt="기프트제품3"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--goft-->
+
+    <div id="sns">
+        <div class="sns_inner">
+            <a class="sns1" href="#"><img src="./images/sns_tictok_img.png" alt="틱톡"></a>
+            <a class="sns2" href="#"><img src="./images/sns_instagram_img.png" alt="인스타그램"></a>
+            <a href="https://www.tiktok.com/ko-KR/"><img class="sns_icon1" src="./images/tictok_icon.png" alt="틱톡"></a>
+            <a href="http://instagram.com/"><img class="sns_icon2" src="./images/instagram_icon.png" alt="인스타그램"></a>
+            <a href="http://twitter.com/"><img class="sns_icon3" src="./images/twitter_icon.png" alt="트위터"></a>
+            <a href="https://youtube.com/"><img class="sns_icon4" src="./images/youtube_icon.png" alt="인스타그램"></a>
+        </div>
+    </div>
+    <!--sns-->
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script><!--제이쿼리 cdn-->
+<script>
+        $(function(){
+            //이미지 변경 함수 호출
+            $(".sns_icon1").mouseenter(function(){
+                $(".sns_icon1").attr("src", "images/tictok_icon_hover.png");//변경될 이미지 주소를 넣어주세요
+            });
+            $(".sns_icon1").mouseleave(function(){
+                $(".sns_icon1").attr("src", "images/tictok_icon.png");//변경될 이미지 주소를 넣어주세요
+            });
+        });
+        $(function(){
+            //이미지 변경 함수 호출
+            $(".sns_icon2").mouseenter(function(){
+                $(".sns_icon2").attr("src", "images/instagram_icon_hover.png");//변경될 이미지 주소를 넣어주세요
+            });
+            $(".sns_icon2").mouseleave(function(){
+                $(".sns_icon2").attr("src", "images/instagram_icon.png");//변경될 이미지 주소를 넣어주세요
+            });
+        });	
+        $(function(){
+            //이미지 변경 함수 호출
+            $(".sns_icon3").mouseenter(function(){
+                $(".sns_icon3").attr("src", "images/twitter_icon_hover.png");//변경될 이미지 주소를 넣어주세요
+            });
+            $(".sns_icon3").mouseleave(function(){
+                $(".sns_icon3").attr("src", "images/twitter_icon.png");//변경될 이미지 주소를 넣어주세요
+            });
+        });
+        $(function(){
+            //이미지 변경 함수 호출
+            $(".sns_icon4").mouseenter(function(){
+                $(".sns_icon4").attr("src", "images/youtube_icon_hover.png");//변경될 이미지 주소를 넣어주세요
+            });
+            $(".sns_icon4").mouseleave(function(){
+                $(".sns_icon4").attr("src", "images/youtube_icon.png");//변경될 이미지 주소를 넣어주세요
+            });
+        });
+        
+        
+        
+    
+    </script>
+
+    <div id="event">
+        <div class="event_inner">
+            <ul class="event_list">
+                <li class="eventlist1"><a href="#"><img src="./images/event1.png" alt="이벤트1"></a></li>
+                <li><a href="#"><img src="./images/event2.png" alt="이벤트2"></a></li>
+            </ul>
+        </div>
+        <!--event_inner-->
+    </div>
+    <!--event-->
+
+
+    <div id="footer">
+        <div class="footer_inner">
+            <h1 class="footer_logo">
+                <a href="./index.html"></a><img src="./images/footer_logo.png" alt="로고">
+            </h1>
+            <a class="foost1" href="#"><img src="./images/footer_list1.png" alt="공지사항"></a>
+            <a class="foost2" href="#"><img src="./images/footer_list2.png" alt="이용약관"></a>
+            <a class="foost3" href="#"><img src="./images/footer_list3.png" alt="전자공고"></a>
+            <a class="foost4" href="#"><img src="./images/footer_list4.png" alt="개인정보처리방침"></a>
+
+            <a class="foocon1" href="https://www.tiktok.com/ko-KR/"><img src="./images/footer_tictok_icon.png" alt="틱톡"></a>
+            <a class="foocon2" href="http://instagram.com/"><img src="./images/footer_instagram_icon.png" alt="인스타그램"></a>
+            <a class="foocon3" href="http://twitter.com/"><img src="./images/footer_twitter_icon.png" alt="트위터"></a>
+            <a class="foocon4" href="http://youtube.com/"><img src="./images/footer_youtube_icon.png" alt="유튜브"></a>
+        
+            <p class="footer_elodie"><img src="./images/elodie corporation.png" alt="ⓒ ELODIE CORPORATION. ALL RIGHT RESERVED."></p>
+        </div>
+    </div>
+
+</body>
+</html>

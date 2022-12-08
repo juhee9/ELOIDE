@@ -1,0 +1,314 @@
+
+*{margin: 0; padding: 0;}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    vertical-align: middle;
+}
+
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+body{
+    font-family: 'LeferiBaseType-RegularA';
+    font-size: 14px;
+    line-height: 24px;
+    color: #625548;
+    min-width: 1450px;
+}
+
+@font-face {
+    font-family: 'LeferiPoint-BlackA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeferiBaseType-RegularA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiBaseType-RegularA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*header*/
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header_inner{
+    margin: 0px auto;
+    width: 1290px;
+    margin-top: 7px;
+}
+.logo{
+    float: left;
+    padding-top: 10px;
+    padding-right: 231px;
+}
+.gnb{
+    float: left;
+}
+.gnb li{
+    float: left;
+}
+.gnb li a{
+    display: block;
+    padding: 35px 25px;
+    font-size: 20px;
+}
+
+.gnb li a:hover{
+    color: #fef8ce;
+}
+
+.header_icon{
+    float: right;
+}
+.header_icon li{
+    float: left;
+}
+.header_icon li a{
+    display: block;
+    padding: 33px 10px;
+}
+
+
+
+
+
+/*main*/
+#main{
+    background: url(./images/myelodie_1page.png) no-repeat center;
+}
+.main_inner{
+    margin: 0px auto;
+    width: 1320px;
+}
+.start{
+    padding-bottom: 355px;
+    padding-top: 510px;
+    text-align: center;
+}
+
+/*page2*/
+
+#page2{
+    background: url(./images/myelodie_2page.png) no-repeat center;
+}
+.page2_inner{
+    margin: 0px auto;
+    width: 1320px;
+}
+.page2_ul{
+    width: 690px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding-top: 291px;
+    padding-bottom: 450px;
+}
+.green{
+    padding-top: 20px;
+}
+.flower{
+    padding-top: 10px;
+    padding-right: 5px;
+}
+.sweet{
+    padding-top: 12px;
+}
+.city{
+    padding-right: 15px;
+}
+
+
+/*page2pick*/
+#page2pick{
+    background: url(./images/myelodie_2page_pick.png) no-repeat center;
+}
+.page2pick_inner{
+    margin: 0px auto;
+    width: 452px;
+}
+.pick11{
+    padding-top: 292px;
+}
+.pick22{
+    padding-top: 25px;
+    padding-bottom: 150px;
+}
+
+
+
+/*page3*/
+
+#page3{
+    background: url(./images/myelodie_3page.png) no-repeat center;
+}
+.page3_inner{
+    margin: 0px auto;
+    width: 1320px;
+}
+.page3_ul{
+    width: 500px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding-top: 291px;
+    padding-bottom: 400px;
+}
+.skincare1{
+    padding-top: 20px;
+}
+.bodycare1{
+    padding-top: 10px;
+}
+
+
+
+/*page4*/
+
+#page4{
+    background: url(./images/myelodie_4page.png) no-repeat center;
+}
+.page4_inner{
+    margin: 0px auto;
+    width: 1320px;
+}
+.page4_ul{
+    width: 510px;
+    height: 390px;
+    display: flex;
+    align-content: space-between;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding-top: 291px;
+    padding-bottom: 248px;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+
+/*page5*/
+
+#page5{
+    background: url(./images/myelodie_5page.png) no-repeat center;
+}
+.page5_inner{
+    margin: 0px auto;
+    width: 1320px;
+}
+.page5_ul{
+    width: 500px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding-top: 291px;
+    padding-bottom: 400px;
+}
+.pick5_1{
+    padding-top: 20px;
+}
+.pick5_2{
+    padding-top: 10px;
+}
+
+
+
+
+/*page6*/
+#page6{
+    background: url(./images/myelodie_6page.png) no-repeat center;
+}
+.page6_inner{
+    margin: 0px auto;
+    width: 1320px;
+}
+.page6_button{
+    padding-bottom: 298px;
+    padding-top: 570px;
+    text-align: center;
+}
+
+
+
+
+
+/*footer*/
+#footer{
+    background: url(./images/footer_bg.png) no-repeat center;
+}
+
+
+.footer_inner{
+    margin: 0px auto;
+    width: 1320px;
+    text-align: center;
+    height: 305px;
+    position: relative;
+}
+.footer_logo{
+    padding-top: 45px;
+    padding-bottom: 21px;
+}
+.foost1{
+    position: absolute;
+    left: 480px;
+    top: 145px;
+}
+.foost2{
+    position: absolute;
+    left: 562px;
+    top: 145px;
+}
+.foost3{
+    position: absolute;
+    right: 620px;
+    top: 145px;
+}
+.foost4{
+    position: absolute;
+    right: 480px;
+    top: 145px;
+}
+
+
+.foocon1{
+    position: absolute;
+    top: 188px;
+    left: 561px;
+}
+.foocon2{
+    position: absolute;
+    top: 188px;
+    left: 621px;
+}.foocon3{
+    position: absolute;
+    top: 188px;
+    right: 560px;
+}.foocon4{
+    position: absolute;
+    top: 188px;
+    right: 620px;
+}
+
+
+.footer_elodie{
+    position: absolute;
+    top: 237px;
+    left: 527px;
+}
