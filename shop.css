@@ -183,7 +183,8 @@ body{
 
 /*sub_main*/
 #sub_main{
-    background: url(./images/shop_subpage_bg.png) no-repeat;
+    background: url(./images/shop_subpage_bg.png) no-repeat center top;
+    overflow: hidden;
 }
 .submain_inner{
     margin: 0px auto;
